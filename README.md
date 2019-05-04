@@ -9,7 +9,7 @@ This repository can be used as a starting point for the exercise but you can use
 ### Setting up the project from this repo
 If you want to use this repository, you can either `git clone` it (if you are familiar with git) or  download it using the green 'Clone or download' button on the top right of this page.
 
-When storing a Node.js project in a version control system, the `node_modules` directory is usually ignored. For that, I've added an entry to [.gitignore](./gitignore).
+When storing a Node.js project in a version control system, the `node_modules` directory is usually ignored. For that, I've added an entry to [.gitignore](./.gitignore).
 
 All dependencies that should go into `node_modules` are listed in [package.json](./package.json).
 Additionally, the file [package-lock.json](./package-lock.json) contains the dependency trees of each individual package. With this information `node_modules` can be fully restored without having to commit heaps of packages to git.
